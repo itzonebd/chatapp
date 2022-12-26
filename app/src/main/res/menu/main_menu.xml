@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title=""
+        android:icon="@drawable/ic_home"
+        app:showAsAction="always" >
+
+       <menu>
+
+           <item android:title="Home"
+               android:icon="@drawable/m_home"
+               android:id="@+id/mHome" />
+
+           <item android:title="Setting"
+               android:icon="@drawable/m_setting"
+               android:id="@+id/mSetting" />
+
+           <item android:title="Logout"
+               android:icon="@drawable/m_setting"
+               android:id="@+id/mLogout" />
+
+       </menu>
+
+
+    </item>
+
+
+
+
+
+</menu>
